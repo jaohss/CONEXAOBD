@@ -53,7 +53,7 @@ public class Main {
                     break;
             }
 
-        } while (opcao != 0);
+        } while (opcao != 0 && opcao <= 1 && opcao >=4 );
 
         scn.close();
     }
